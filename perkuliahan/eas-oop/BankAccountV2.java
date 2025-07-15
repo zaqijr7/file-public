@@ -1,5 +1,6 @@
 public class BankAccountV2 {
-    // Atribut dienkapsulasi dengan access specifier 'private'
+
+    // Atribut dienkapsulasi dengan access specifier 'private' agar aman dan tidak bisa diakses dari luar
     private String accountNumber;
     private String accountHolderName;
     private double balance;
