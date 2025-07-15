@@ -1,4 +1,5 @@
 public class BankAccount {
+
   // Atribut
   private String accountNumber;
   private String accountHolderName;
@@ -38,3 +39,6 @@ public class BankAccount {
     System.out.println("Saldo saat ini: " + balance);
   }
 }
+
+
+
