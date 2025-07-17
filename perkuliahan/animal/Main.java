@@ -1,12 +1,15 @@
 public class Main {
   public static void main(String[] args) {
-    Animal animal = new Animal("Gerry");
-    animal.makeSound();
+    Animal[] animals = {
+      new Dog("Buddy"),
+      new Cat("Misty"),
+      new Dog("Rocky"),
+      new Cat("Luna")
+    };
 
-    Dog dogy = new Dog("Doggggs");
-    dogy.makeSound();
-
-    Cat caty = new Cat("Catysss");
-    caty.makeSound();
+    for (Animal a : animals) {
+      System.out.print(a.getName() + " says: ");
+      a.makeSound();
+    }
   }
 }
